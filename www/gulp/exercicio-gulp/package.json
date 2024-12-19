@@ -1,0 +1,19 @@
+{
+  "name": "exercicio-gulp",
+  "version": "1.0.0",
+  "main": "gulpfile.js",
+  "scripts": {
+    "sass": "sass www/source/styles/main.scss www/build/styles/main.css --watch",
+    "gulp": "gulp",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-imagemin": "^7.1.0",
+    "gulp-uglify": "^3.0.2",
+    "sass": "^1.83.0"
+  }
+}
